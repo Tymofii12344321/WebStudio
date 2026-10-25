@@ -1,0 +1,365 @@
+
+/* RALEWAY */
+/* font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal; */
+
+
+  /* ROBOTO */
+  /* font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; */
+
+ul {
+list-style: none;
+
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header_box {
+display: flex;
+align-items: center;
+height: 80px;
+}
+
+.header_nav_ul {
+display: flex;
+margin-left: 93px;
+gap: 50px;
+margin-right: 344px;
+
+}
+
+.header_contacts_ul {
+display: flex;
+gap: 50px;
+
+}
+
+.container {
+margin: 0 auto ;
+width: 1170px;
+
+
+
+}
+
+.logo {
+display: flex;
+font-size: 26px;
+font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+letter-spacing: 3%;
+}
+
+.logo_part_one {
+color: #2196F3;
+}
+
+.nav_links {
+  transition: all, .3s;
+
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: #212121;
+    font-size: 14px;
+    letter-spacing: 2%;
+    text-decoration: none;
+
+}
+
+.nav_links:hover {
+color: #2196F3;
+text-shadow: 2px 2px 2px #2196F3;
+}
+
+.contacts {
+    transition: all, .3s;
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: #757575;
+    font-size: 14px;
+    letter-spacing: 2%;
+    text-decoration: none;
+}
+
+.contacts:hover {
+color: #2196F3;
+}
+
+.contacts::-webkit-validation-bubble-text-block {
+    transition: all, .3s;
+color: red;
+}
+
+.header_bg {
+background-color: #2F303A;
+height: 600px;
+}
+
+.main_title {
+font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+font-size: 44px;
+letter-spacing: 6%;
+line-height: 60px;
+text-transform: uppercase;
+color: #FFFFFF;
+width: 696px;
+text-align: center;
+padding-top: 200px;
+margin: 0 auto;
+text-shadow: 3px 3px 5px #000;
+transition: all, 10s;
+}
+
+
+.order_service_button {
+border: none;
+background-color: #2196F3;
+height: 50px;
+width: 216px;
+border-radius: 4px;
+ font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+font-size: 16px;
+color: #FFFFFF;
+box-shadow: 0 4px 4px #00000026;
+/* margin-left: 50%; */
+margin: 0 auto;
+/* transform: translateX(-50%); */
+margin-top: 30px;
+cursor: pointer;
+box-shadow: 3px 3px 5px #1866a5;
+display: block;
+transition: all, .3s;
+}
+
+.order_service_button:hover {
+box-shadow: 3px 3px 5px #082135;
+background: #175e98;
+height: 60px;
+width: 226px;
+transform: translateX(-5px);
+transform: translateY(-5px);
+
+
+
+
+
+}
+
+.description_ {
+background: #FFFFFF;
+
+}
+
+.description {
+display: flex;
+margin-top: 94px;
+
+}
+
+.h3_description {
+font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+letter-spacing: 3%;
+color: #212121;
+font-size: 14px;
+}
+
+.p_description {
+font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+letter-spacing: 3%;
+color: #757575;
+font-size: 14px;
+margin-top: 10px;
+line-height: 24px;
+}
+
+.h2_description_imgs {
+margin-top: 94px;
+text-align: center;
+font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; 
+    font-size: 36px;
+    letter-spacing: 3%;
+    color: #212121;
+}
+
+.ul_description_imgs {
+margin-top: 50px;
+width: 370px;
+height: 294px;
+display: flex;
+gap: 30px;
+}
+
+.section {
+margin-top: 94px;
+padding-top: 94px;
+background: #F5F4FA;
+padding-bottom: 94px;
+
+}
+
+.h2_team {
+font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 36px;
+    letter-spacing: 3%;
+    text-align: center; 
+    color: #212121;
+}
+
+.team_imgs {
+display: flex;
+gap: 30px;
+}
+
+.team_img {
+margin-top: 50px;
+background-color: #FFFFFF;
+
+}
+
+.img {
+
+width: 270px;
+height: 260px;
+}
+
+.p_job {
+margin-top: 10px;
+font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; 
+font-size: 16px;
+letter-spacing: 3%;
+color: #757575;
+text-align: center;
+padding-bottom: 30px;
+}
+
+.h3_name {
+margin-top: 30px;
+font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; 
+font-size: 16px;
+letter-spacing: 3%;
+color: #212121;
+text-align: center;
+}
+
+.contacts_footer {
+font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; 
+    gap: 9px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.section_footer {
+background: #2F303A;
+padding-top: 60px;
+padding-bottom: 60px;
+
+}
+
+.logo_footer {
+margin-bottom: 20px;
+display: flex;
+font-size: 26px;
+font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+letter-spacing: 3%;
+color: #FFFFFF;
+}
+
+.contact_footer_1 {
+color: #FFFFFF;
+font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; 
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 3%;
+}
+
+.contact_footer_2 {
+color: #FFFFFF;
+color: rgba(255, 255, 255, 0.6);
+font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; 
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 3%;
+}
+
+.contact_footer_1:hover {
+text-shadow: 2px 2px 3px #FFFFFF;
+}
+
+.contact_footer_2:hover {
+text-shadow: 2px 2px 3px 2rgba(255, 255, 255, 0.6)196F3;
+}
